@@ -709,7 +709,7 @@ dependencies = [
 [[package]]
 name = "ckb-sdk"
 version = "1.0.0"
-source = "git+https://github.com/cryptape/ckb-sdk-rust#68aaaf10f3a9933acba03e593f15d0f649704804"
+source = "git+https://github.com/nervosnetwork/ckb-sdk-rust#68aaaf10f3a9933acba03e593f15d0f649704804"
 dependencies = [
  "bech32",
  "bytes",
@@ -2819,7 +2819,7 @@ dependencies = [
  "anyhow",
  "blake2b-rs",
  "ckb-hash 0.103.0",
- "ckb-sdk 1.0.0 (git+https://github.com/cryptape/ckb-sdk-rust)",
+ "ckb-sdk 1.0.0 (git+https://github.com/nervosnetwork/ckb-sdk-rust)",
  "ckb-system-scripts",
  "ckb-types 0.103.0",
  "hex",

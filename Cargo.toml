@@ -9,7 +9,7 @@ edition = "2021"
 anyhow = "1.0.57"
 blake2b-rs = "0.2.0"
 ckb-hash = "0.103.0"
-ckb-sdk = { git = "https://github.com/cryptape/ckb-sdk-rust"}
+ckb-sdk = { git = "https://github.com/nervosnetwork/ckb-sdk-rust"}
 ckb-system-scripts = "0.5.4"
 ckb-types = "0.103.0"
 hex = "0.4.3"
