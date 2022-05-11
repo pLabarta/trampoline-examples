@@ -1,0 +1,18 @@
+[package]
+name = "trampoline-examples"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.57"
+blake2b-rs = "0.2.0"
+ckb-hash = "0.103.0"
+ckb-sdk = { git = "https://github.com/cryptape/ckb-sdk-rust"}
+ckb-system-scripts = "0.5.4"
+ckb-types = "0.103.0"
+hex = "0.4.3"
+secp256k1 = { version = "0.20", features = ["recovery"] }
+serde_json = "1.0.79"
+trampoline-sdk = { git = "https://github.com/WilfredTA/trampoline", branch = "feat/account" }
